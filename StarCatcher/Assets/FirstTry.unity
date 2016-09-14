@@ -216,18 +216,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8725173defd53a34885bf112622e05c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   gravity: 5
   jumpSpeed: 50
   jumpCount: 0
   jumpCountMax: 2
+  slideDuration: 20
+  slideTime: 0.01
 --- !u!114 &1069478728
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1069478720}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4829d72c0b672b44598dfa47d3e6f466, type: 3}
   m_Name: 

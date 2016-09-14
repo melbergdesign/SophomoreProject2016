@@ -13,10 +13,39 @@ public class MoveChar : MonoBehaviour {
     public float jumpSpeed = 50;
     public int jumpCount = 0;
     public int jumpCountMax = 2;
+    //Sliding Vars
+    public int slideDuration = 20;
+    public float slideTime = 0.01f;
+    //Coroutine for sliding Character
+    IEnumerator Slide()
+    {
+        //set a temp var to the value of slide Duration
+        int durationTemp = slideDuration;
+        //
+        float speedTemp = speed;
+        speed += speed;
+        //while loop runs "while" the slide duration is greater than 0
+        while (slideDuration > 0)
+        {
+
+            //decrement the slideDuration
+            slideDuration--;
+            //yield "holds the coroutine"
+            //return "sends" to the coroutine to do an operation while yielding
+            //new creates an instance of an object
+            //WaitForSeconds is an object that waits for a duration of time
+            yield return new WaitForSeconds(slideTime);
+            
+
+        }
+        speed = speedTemp;
+        slideDuration = durationTemp;
+        
+    }
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 
         //This "finds" the character component
         myCC = GetComponent<CharacterController>();
@@ -35,6 +64,19 @@ public class MoveChar : MonoBehaviour {
             tempPos.y = jumpSpeed;
             
         }
+        //Start Sliding
+        if (Input.GetKey(KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.S))
+        {
+            //StartCoroutine is a function that calls a coroutine. Use the couroutine in the argument
+            StartCoroutine(Slide());
+        }
+
+        if (Input.GetKey(KeyCode.LeftArrow) && Input.GetKeyDown(KeyCode.S))
+        {
+            //StartCoroutine is a function that calls a coroutine. Use the couroutine in the argument
+            StartCoroutine(Slide());
+        }
+
         //test if the char controller is grounded
         if (myCC.isGrounded)
         {
