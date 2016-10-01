@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/delegatescene.unity
+- path: Assets/SC-Game.unity
   isLoaded: 1
   isActive: 1

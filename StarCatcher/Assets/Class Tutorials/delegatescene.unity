@@ -494,7 +494,7 @@ GameObject:
   - 65: {fileID: 799664129}
   - 54: {fileID: 799664128}
   - 114: {fileID: 799664130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RecycleTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -565,7 +565,7 @@ GameObject:
   - 65: {fileID: 1156915798}
   - 23: {fileID: 1156915797}
   - 114: {fileID: 1156915801}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RedCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,7 +658,7 @@ GameObject:
   - 65: {fileID: 1367616301}
   - 23: {fileID: 1367616300}
   - 114: {fileID: 1367616304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Blue Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -907,7 +907,7 @@ GameObject:
   - 65: {fileID: 1934754282}
   - 23: {fileID: 1934754281}
   - 114: {fileID: 1934754285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: White Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
