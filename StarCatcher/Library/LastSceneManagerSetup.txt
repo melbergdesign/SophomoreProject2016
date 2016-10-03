@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SC-Game.unity
+- path: Assets/Flip Player Art.unity
   isLoaded: 1
   isActive: 1
