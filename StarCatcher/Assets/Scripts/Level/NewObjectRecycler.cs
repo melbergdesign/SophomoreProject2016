@@ -4,7 +4,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-public class RecycleLevelObject : MonoBehaviour {
+public class NewObjectRecycler : MonoBehaviour
+{
 
     private Vector3 newLocation;
     public List<NewRecycler> recyclableList;
@@ -31,17 +32,17 @@ public class RecycleLevelObject : MonoBehaviour {
     {
         i = UnityEngine.Random.Range(0, recyclableList.Count - 1);
 
-        newLocation.x = StaticVars.nextSectionPosition;
+        newLocation.x = LevelStaticVars.nextSectionPosition;
         recyclableList[i].cube.position = newLocation;
-        StaticVars.nextSectionPosition += StaticVars.distance;
+        LevelStaticVars.nextSectionPosition += LevelStaticVars.distance;
         //removes just selected cube from list
         if (recyclableList.Count > 0)
         {
             recyclableList.RemoveAt(i);
         }
-             
-                
-        
+
+
+
 
     }
 }
