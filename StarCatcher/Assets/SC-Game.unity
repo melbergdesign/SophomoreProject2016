@@ -91,6 +91,7 @@ NavMeshSettings:
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1001 &103308
 Prefab:
   m_ObjectHideFlags: 0
@@ -269,12 +270,16 @@ MeshCollider:
 =======
 --- !u!1 &626157545
 >>>>>>> Stashed changes
+=======
+--- !u!1 &626157545
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   - 4: {fileID: 204300123}
   - 65: {fileID: 204300124}
@@ -286,13 +291,22 @@ GameObject:
   m_Layer: 0
   m_Name: ChasmLeftBlock
 >>>>>>> Stashed changes
+=======
+  - 4: {fileID: 626157546}
+  m_Layer: 0
+  m_Name: ChasmLeftBlock
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!4 &204300123
+=======
+--- !u!4 &626157546
+>>>>>>> Stashed changes
 =======
 --- !u!4 &626157546
 >>>>>>> Stashed changes
@@ -300,6 +314,7 @@ Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 204300122}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
@@ -520,6 +535,8 @@ MeshCollider:
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: 4c459eef595aeb64a8458359b6ed0596, type: 3}
 =======
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 626157545}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -529,6 +546,9 @@ MeshCollider:
   - {fileID: 1114683904}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &727609356
 GameObject:
@@ -593,6 +613,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!1 &784706828
 GameObject:
@@ -1062,10 +1083,14 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b29831a9f5abf7f4ea3575a37a370871, type: 3}
   m_PrefabInternal: {fileID: 1038061758}
 --- !u!1001 &1061193878
+=======
+--- !u!1001 &1114683903
+>>>>>>> Stashed changes
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< Updated upstream
     m_TransformParent: {fileID: 923955826}
     m_Modifications:
     - target: {fileID: 400000, guid: 1bb1d1d7caebb81478d7a2c7e3ca6612, type: 3}
@@ -1277,6 +1302,8 @@ MeshCollider:
   m_Mesh: {fileID: 4300000, guid: 1bb1d1d7caebb81478d7a2c7e3ca6612, type: 3}
 --- !u!1001 &1580949689
 =======
+=======
+>>>>>>> Stashed changes
     m_TransformParent: {fileID: 626157546}
     m_Modifications:
     - target: {fileID: 400000, guid: 108b58aa9e8364448a30629a3a51937e, type: 3}
@@ -1331,6 +1358,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 108b58aa9e8364448a30629a3a51937e, type: 3}
   m_PrefabInternal: {fileID: 1114683903}
 --- !u!1001 &1207176065
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 Prefab:
   m_ObjectHideFlags: 0
@@ -1403,10 +1431,13 @@ MeshCollider:
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: 596e3db8f20ec454d9f0e709699aedb8, type: 3}
 --- !u!1001 &1751920318
+=======
+>>>>>>> Stashed changes
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< Updated upstream
     m_TransformParent: {fileID: 204300123}
     m_Modifications:
     - target: {fileID: 400000, guid: 3685d059f9fe0a3438ad830f4a7eecf3, type: 3}
@@ -1523,6 +1554,8 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 9d6538f22438c6a4dbe9f368982f0dc7, type: 3}
   m_PrefabInternal: {fileID: 1921902143}
 =======
+=======
+>>>>>>> Stashed changes
     m_TransformParent: {fileID: 2122163447}
     m_Modifications:
     - target: {fileID: 400000, guid: bcf53d4a9891644a38e49714b4475e1b, type: 3}
@@ -1580,6 +1613,9 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: bcf53d4a9891644a38e49714b4475e1b, type: 3}
   m_PrefabInternal: {fileID: 1207176065}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1922174145
 GameObject:
@@ -1664,7 +1700,11 @@ Transform:
   m_GameObject: {fileID: 1922174145}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 0, y: 14.4, z: -38.7}
+=======
+  m_LocalPosition: {x: -15.63, y: 6.74, z: -27.92}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: -15.63, y: 6.74, z: -27.92}
 >>>>>>> Stashed changes
@@ -1674,6 +1714,7 @@ Transform:
   - {fileID: 962167547}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!114 &1922174151
 MonoBehaviour:
@@ -1688,6 +1729,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &2122163446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1717,4 +1760,7 @@ Transform:
   - {fileID: 1207176066}
   m_Father: {fileID: 0}
   m_RootOrder: 3
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
