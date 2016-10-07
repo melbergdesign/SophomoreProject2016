@@ -7,21 +7,21 @@ using System;
 public class RecycleLevelObject : MonoBehaviour {
 
     private Vector3 newLocation;
-    public List<Recylcer> recyclableList;
+    public List<NewRecycler> recyclableList;
     private int i = 0;
 
     //subscribe to the list's action
     void Start()
     {
         //creates a new object in memory
-        recyclableList = new List<Recylcer>();
-        Recylcer.RecycleAction += RecycleActionHandler;
+        recyclableList = new List<NewRecycler>();
+        NewRecycler.RecycleAction += RecycleActionHandler;
 
 
         //StaticVars.nextSectionPosition = 12;
     }
 
-    private void RecycleActionHandler(Recylcer _r)
+    private void RecycleActionHandler(NewRecycler _r)
     {
         //adds each cube to list of items that can be recycled
         recyclableList.Add(_r);
