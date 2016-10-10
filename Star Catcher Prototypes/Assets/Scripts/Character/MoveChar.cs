@@ -67,7 +67,7 @@ public class MoveChar : MonoBehaviour {
 
 		}
 		//Start Sliding
-		if (Input.GetKey(KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.S))
+		if (Input.GetKey(KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.DownArrow))
 		{
 			//StartCoroutine is a function that calls a coroutine. Use the couroutine in the argument
 			StartCoroutine(Slide());
