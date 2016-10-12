@@ -44,13 +44,18 @@ public class MoveCharacter : MonoBehaviour
 
     }
 
+	void StartGameHandler(){
+		
+		//This "finds" the character component
+		myCC = GetComponent<CharacterController>();
+		GameControl.StartGame -= StartGameHandler;
+	}
 
     // Use this for initialization
     void Start()
     {
 
-        //This "finds" the character component
-        myCC = GetComponent<CharacterController>();
+		GameControl.StartGame += StartGameHandler;
 
     }
 
