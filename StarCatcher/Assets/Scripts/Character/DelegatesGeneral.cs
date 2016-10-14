@@ -13,6 +13,7 @@ public class DelegatesGeneral : MonoBehaviour {
 
 	//1. delegate is a function CONTAINER
 	//4. Nothing happening until they are subscribed
+	//9. 
 	void MoveHandler(DelegatesGeneral obj){
 
 		print ("moving at " + obj.speed + "mph");
