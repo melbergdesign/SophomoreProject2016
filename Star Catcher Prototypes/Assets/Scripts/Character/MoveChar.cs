@@ -8,8 +8,10 @@ public class MoveChar : MonoBehaviour {
 	//Temp var of datatype vector3 to move the character
 	private Vector3 tempPos;
 	//Speed of the temp var in x
+    //influences horizontal jump distance
 	public float speed = 5;
 	public float gravity = -5;
+    //jumpSpeed influences vertical jump distance
 	public float jumpSpeed = 50;
 	public int jumpCount = 0;
 	public int jumpCountMax = 2;
