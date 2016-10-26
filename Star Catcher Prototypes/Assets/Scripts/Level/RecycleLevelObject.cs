@@ -19,8 +19,6 @@ public class RecycleLevelObject : MonoBehaviour {
 		Recycler.RecycleAction += RecycleActionHandler;
 
         //AddNextObject();
-
-
 		//StaticVars.nextSectionPosition = 12;
 	}
 
