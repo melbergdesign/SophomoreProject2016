@@ -18,7 +18,7 @@ public class RecycleLevelObject : MonoBehaviour {
         //tells the script to treat this object (attached to script) to rules in RecycleAction and if it passes, add it to the list
 		Recycler.RecycleAction += RecycleActionHandler;
 
-		for(int x = 0; x<2; x++){
+		for(int _p = 0; _p<2; _p++){
 			PlaceNewLand();
 		}
 	}
