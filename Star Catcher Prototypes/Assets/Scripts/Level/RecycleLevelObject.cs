@@ -18,8 +18,9 @@ public class RecycleLevelObject : MonoBehaviour {
         //tells the script to treat this object (attached to script) to rules in RecycleAction and if it passes, add it to the list
 		Recycler.RecycleAction += RecycleActionHandler;
 
-        //AddNextObject();
-		//StaticVars.nextSectionPosition = 12;
+		for(int x = 0; x<2; x++){
+			PlaceNewLand();
+		}
 	}
 
 	private void RecycleActionHandler(Recycler _r)
@@ -29,22 +30,25 @@ public class RecycleLevelObject : MonoBehaviour {
        
 	}
 
-    
-
-	void OnTriggerEnter()
-	{
-       i = UnityEngine.Random.Range(0, recyclableList.Count - 1);
-
+	void PlaceNewLand(){
+		
+		//i = UnityEngine.Random.Range(0, recyclableList.Count - 1);
+		print (i);
 		newLocation.x = StaticVars.nextSectionPosition;
 		recyclableList[i].transform.position = newLocation;
 		StaticVars.nextSectionPosition += StaticVars.distance;
-        
+
 		//removes just selected cube from list
 		if (recyclableList.Count > 0)
 		{
 			//removes recyclableList entry at i position
 			recyclableList.RemoveAt(i);
 		}
+	}
+
+	void OnTriggerEnter()
+	{
+		PlaceNewLand ();
 
 	}
 }
