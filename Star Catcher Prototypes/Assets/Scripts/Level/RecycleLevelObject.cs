@@ -10,6 +10,9 @@ public class RecycleLevelObject : MonoBehaviour {
 	public List<Recycler> recyclableList;
 	private int i = 0;
 
+	public float waitVar = 3;
+
+
 	//subscribe to the list's action
 	void Start()
 	{
@@ -18,9 +21,16 @@ public class RecycleLevelObject : MonoBehaviour {
         //tells the script to treat this object (attached to script) to rules in RecycleAction and if it passes, add it to the list
 		Recycler.RecycleAction += RecycleActionHandler;
 
-		for(int _p = 0; _p<2; _p++){
+		/*for(int _p = 0; _p<2; _p++){
 			PlaceNewLand();
-		}
+		}*/
+		StartCoroutine(LateStart(waitVar));
+	}
+
+	IEnumerator LateStart(float waitTime)
+	{
+		yield return new WaitForSeconds(waitTime);
+		PlaceNewLand();
 	}
 
 	private void RecycleActionHandler(Recycler _r)
@@ -48,6 +58,7 @@ public class RecycleLevelObject : MonoBehaviour {
 
 	void OnTriggerEnter()
 	{
+		print ("Hit");
 		PlaceNewLand ();
 
 	}
